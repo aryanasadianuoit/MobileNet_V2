@@ -9,5 +9,5 @@ MobileNet-V2 addresses the challenges of using deep learning models in resource 
 
 <br>
 <p><b>PS-1</b>: In the original paper, the activation function for non-linear transformation is <b>ReLU-6</b>. In this implementation, I have replaced ReLU-6 with the regular ReLU.</p>
-<p><b>PS-2</b>: In the original paper, the last layer is a regular convolutional layer with 1000 channels(number of ImageNet classes),a dn (1,1) spatial size. In this implementation, a combination of dropout(0.2), and a linear layer has been used instead of the mentioned CNN layer( ispired by the PyTorch implementation)</p>
+<p><b>PS-2</b>: In the original paper, the last layer is a regular convolutional layer with <b>1000 channels</b> (number of ImageNet classes), and <b>(1,1)</b> spatial size. In this implementation, <b>a combination of dropout(0.2), and a linear layer</b> has been used instead of the mentioned CNN layer (ispired by the <a href="https://github.com/pytorch/vision/blob/master/torchvision/models/mobilenetv2.py">PyTorch</a> implementation)</p>
 </section>
