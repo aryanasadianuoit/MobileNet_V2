@@ -18,7 +18,7 @@ MobileNet-V2 addresses the challenges of using deep learning models in resource 
   <br>
   <table>
   <tr>
-    <th>Input</th>
+    <th>Input size</th>
     <th>layer/module</th> 
     <th>expansion rate (t)</th>
     <th># out-channels (c)</th>
@@ -54,7 +54,7 @@ MobileNet-V2 addresses the challenges of using deep learning models in resource 
     <td>bottleneck</td> 
     <td>6</td>
     <td>32</td>
-    <td>3</td>
+    <td style="text-align: center; vertical-align: middle;">3</td>
     <td>2</td>
   </tr>
    <tr>
