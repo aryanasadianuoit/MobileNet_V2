@@ -69,7 +69,7 @@ MobileNet-V2 addresses the challenges of using deep learning models in resource 
     <td align="center">(64,14,14)</td>
     <td align="center">bottleneck</td> 
     <td align="center">6</td>
-    <td v>96</td>
+    <td align="center">96</td>
     <td align="center">3</td>
     <td align="center">1</td>
   </tr>
@@ -93,7 +93,7 @@ MobileNet-V2 addresses the challenges of using deep learning models in resource 
     <td align="center">(320,7,7)</td>
     <td align="center">Conv2d (1x1)</td> 
     <td align="center">-</td>
-    <td v>1280</td>
+    <td align="center">1280</td>
     <td align="center">1</td>
     <td align="center">1</td>
   </tr>
