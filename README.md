@@ -18,100 +18,100 @@ MobileNet-V2 addresses the challenges of using deep learning models in resource 
   <br>
   <table>
   <tr>
-    <th>Input size</th>
-    <th>layer/module</th> 
-    <th>expansion rate (t)</th>
-    <th># out-channels (c)</th>
-    <th># of layer/module (n)</th>
-    <th>stride (s)</th>
+    <th align="center">Input size</th>
+    <th align="center">layer/module</th> 
+    <th align="center">expansion rate (t)</th>
+    <th align="center"># out-channels (c)</th>
+    <th align="center"># of layer/module (n)</th>
+    <th align="center">stride (s)</th>
   </tr>
   <tr>
-    <td>(3,224,224)</td>
-    <td>Conv2d</td> 
-    <td>-</td>
-    <td>32</td>
-    <td>1</td>
-    <td>2</td>
+    <td align="center">(3,224,224)</td>
+    <td align="center">Conv2d</td> 
+    <td align="center">-</td>
+    <td align="center">32</td>
+    <td align="center">1</td>
+    <td align="center">2</td>
   </tr>
    <tr>
-    <td>(32,112,112)</td>
-    <td>bottleneck</td> 
-    <td>1</td>
-    <td>16</td>
-    <td>1</td>
-    <td>1</td>
+    <td align="center">(32,112,112)</td>
+    <td align="center">bottleneck</td> 
+    <td align="center">1</td>
+    <td align="center">16</td>
+    <td align="center">1</td>
+    <td align="center">1</td>
   </tr>
   <tr>
-    <td>(16,112,112)</td>
-    <td>bottleneck</td> 
-    <td>6</td>
-    <td>24</td>
-    <td>2</td>
-    <td>2</td>
+    <td align="center">(16,112,112)</td>
+    <td align="center">bottleneck</td> 
+    <td align="center">6</td>
+    <td align="center">24</td>
+    <td align="center">2</td>
+    <td align="center">2</td>
   </tr>
    <tr>
-    <td>(24,56,56)</td>
-    <td>bottleneck</td> 
-    <td>6</td>
-    <td>32</td>
+    <td align="center">(24,56,56)</td>
+    <td align="center">bottleneck</td> 
+    <td align="center">6</td>
+    <td align="center">32</td>
     <td align="center">3</td>
-    <td>2</td>
+    <td align="center">2</td>
   </tr>
    <tr>
-    <td>(32,28,28)</td>
-    <td>bottleneck</td> 
-    <td>6</td>
-    <td>64</td>
-    <td>4</td>
-    <td>2</td>
+    <td align="center">(32,28,28)</td>
+    <td align="center">bottleneck</td> 
+    <td align="center">6</td>
+    <td align="center">64</td>
+    <td align="center">4</td>
+    <td align="center">2</td>
   </tr>
    <tr>
-    <td>(64,14,14)</td>
-    <td>bottleneck</td> 
-    <td>6</td>
-    <td>96</td>
-    <td>3</td>
-    <td>1</td>
+    <td align="center">(64,14,14)</td>
+    <td align="center">bottleneck</td> 
+    <td align="center">6</td>
+    <td v>96</td>
+    <td align="center">3</td>
+    <td align="center">1</td>
   </tr>
    <tr>
-    <td>(96,14,14)</td>
-    <td>bottleneck</td> 
-    <td>6</td>
-    <td>160</td>
-    <td>3</td>
-    <td>2</td>
+    <td align="center">(96,14,14)</td>
+    <td align="center">bottleneck</td> 
+    <td align="center">6</td>
+    <td align="center">160</td>
+    <td align="center">3</td>
+    <td align="center">2</td>
   </tr>
    <tr>
-    <td>(160,7,7)</td>
-    <td>bottleneck</td> 
-    <td>6</td>
-    <td>320</td>
-    <td>1</td>
-    <td>1</td>
+    <td align="center">(160,7,7)</td>
+    <td align="center">bottleneck</td> 
+    <td align="center">6</td>
+    <td align="center">320</td>
+    <td align="center">1</td>
+    <td align="center">1</td>
   </tr>
    <tr>
-    <td>(320,7,7)</td>
-    <td>Conv2d (1x1)</td> 
-    <td>-</td>
-    <td>1280</td>
-    <td>1</td>
-    <td>1</td>
+    <td align="center">(320,7,7)</td>
+    <td align="center">Conv2d (1x1)</td> 
+    <td align="center">-</td>
+    <td v>1280</td>
+    <td align="center">1</td>
+    <td align="center">1</td>
   </tr>
    <tr>
-    <td>(1280,7,7)</td>
-    <td>avgpool (7x7)</td> 
-    <td>-</td>
-    <td>-</td>
-    <td>1</td>
-    <td>-</td>
+    <td align="center">(1280,7,7)</td>
+    <td align="center">avgpool (7x7)</td> 
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">1</td>
+    <td align="center">-</td>
   </tr>
    <tr>
-    <td>(1280,1,1)</td>
-    <td>Conv2d (1x1)</td> 
-    <td>-</td>
-    <td>num_classes (1000)</td>
-    <td>-</td>
-    <td>-</td>
+    <td align="center">(1280,1,1)</td>
+    <td align="center">Conv2d (1x1)</td> 
+    <td align="center">-</td>
+    <td align="center">num_classes (1000)</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
   </tr>
 
 </table>
